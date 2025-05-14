@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    align-items: center;
 }
 
 .navbar__s1{
@@ -22,15 +23,41 @@
 
 .navbar__s3{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
-h5{
+.navbar__s3__inr{
+    background-color: white;
+    color: black;
+    height: fit-content;
+    padding: 10px 15px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.navbar__s4__signin{
     border: solid black 1px;
     background-color: black;
     color: white;
     height: fit-content;
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 30px;
     align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.search__categories{
+    display: flex;
+    gap: 10px;
+    justify-content: center;    
+}
+
+.body__img img{
+    width: 50%;
+    height: 50%;
 }
