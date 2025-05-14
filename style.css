@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar__s1{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.navbar__s2{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 20px;
+}
+
+h5{
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 30px;
+    align-items: center;
+}
