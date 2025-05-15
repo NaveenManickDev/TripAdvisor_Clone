@@ -3,27 +3,36 @@
     padding: 0;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
     align-items: center;
+    top: 10px;
+    background-color: white;
+    color: black;
 }
 
-.navbar__s1{
-    width: 50px;
-    height: 50px;
+.navbar__s1{   
     display: flex;
+    width: 30px;
+    height: 30px;
 }
 
 .navbar__s2{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    font-weight: bold;
 }
 
 .navbar__s3{
     display: flex;
     gap: 10px;
+    font-weight: bold;
 }
 
 .navbar__s3__inr{
@@ -49,6 +58,14 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.search__title1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 54px;
+    font-weight: 900;
 }
 
 .search__categories{
