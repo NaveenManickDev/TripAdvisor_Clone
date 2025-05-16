@@ -6,26 +6,35 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+.container{
+    padding-top: 10px;
+}
 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     padding: 20px;
     align-items: center;
-    top: 10px;
     background-color: white;
     color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .navbar__s1{   
     display: flex;
-    width: 30px;
-    height: 30px;
+    align-items: center;
+}
+
+.navbar__s1 img{
+    width: 40px;
+    height: 40px;
 }
 
 .navbar__s2{
     display: flex;
-    gap: 30px;
+    gap: 35px;
     font-weight: bold;
 }
 
@@ -56,8 +65,8 @@ body{
 
 .search{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    padding: 10px;
 }
 
 .search__title1{
@@ -70,8 +79,32 @@ body{
 
 .search__categories{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;    
+}
+
+.search__input{
+    display: flex;
+    justify-content: center;
+}
+
+.search__input input{
+   border: none;
+    width: 50%;
+    font-size: 16px;  
+    height: 50px; 
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: transparent; 
+    border: solid rgb(158, 145, 145) 1px;
+}
+.search__input input:focus{
+    outline: none;
+}
+.body__img{
+    display: flex;
+    align-items: center;
 }
 
 .body__img img{
