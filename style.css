@@ -45,9 +45,14 @@ body{
 .navbar__s2:hover{
     cursor: pointer;
 }
-
+.navbar__s2 p{
+    padding: 10px;
+}
 .navbar__s2 p:hover{
-    border: solid black 2px;
+    /* border: solid black 2px; */
+    padding: 10px;
+    border-radius: 30px;
+    background-color: whitesmoke;
 
 }
 
@@ -80,12 +85,12 @@ body{
     align-items: center;
 }
 
-.search{
+/* .search{
     display: flex;
     flex-direction: column;
     padding: 10px;
     justify-content: center;
-}
+} */
 
 .search__title1{
     display: flex;
@@ -98,29 +103,39 @@ body{
 .search__categories{
     display: flex;
     gap: 20px;
-    justify-content: center;    
+    justify-content: center;  
+    /* padding: 10px;   */
 }
 
 .search__categories p:hover{
     border-bottom: solid black 2px;
     cursor: pointer;
+    /* padding: 5px; */
 }
 
 .search__button{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    align-items: center;
 }
 .search__input{
     border: solid black 2px;
     width: 40%;
-    padding: 10px;
+    padding: 5px;
     margin-top: 30px;
     margin-bottom: 50px;
     border-radius: 30px;
     background-color: transparent; 
     border: solid rgb(158, 145, 145) 1px;
+    display: flex;
 }
 
+.search__input i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .search__input input{
     border: none;
     width: 85%;
@@ -132,31 +147,37 @@ body{
 .search__input input:focus{
     outline: none;
 }
-.search__input button{
-    padding: 15px 30px;
+/* .search__input button{
+    padding: 15px 20px;
     background-color: #34E0A1;
     border-radius: 30px;    
     position: absolute;
+    
+    
     top: 272px;
     right: 570px;
+} */
+
+.search__button p{
+    background-color: rgb(22, 219, 127);
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    padding: 15px 25px;
+    width: fit-content;
 }
+
 .body__img{
     display: flex;
     justify-content: center;
     position: relative;
    
 }
-.body__img h1{
-    position: absolute;
-}
-.body__img p{
-    position: absolute;
-    width: 80%;right: 0;
-}
+
 .body__img img{
-    width: 60%;
+    width: 1100px;
     border-radius: 30px;
-    height: fit-content;
+    
 }
 
 
@@ -165,7 +186,7 @@ body{
     display: flex;
     position: absolute;
     bottom: 100px;
-    left: 400px;
+    left: 430px;
 }
 
 .body__img p{
@@ -173,16 +194,17 @@ body{
     display: flex;
     position: absolute;
     bottom: 80px;
-    left: 400px;
+    left: 430px;
 }
+
 
 .body__btn p{
     padding: 15px 30px;
     background-color:white;
     border-radius: 30px;    
     position: absolute;
-    left: 400px;
-    bottom: -185px;
+    left: 420px;
+    bottom: -140px;
     font-weight: bold;    
 }
 
@@ -190,13 +212,13 @@ body{
     padding: 0 380px 0 380px;
 }
 .hotels__container{
-    display: flex;
+   display: flex;
    justify-content: space-around;
    gap: 20px;
 }
 
 .hotels-card{ 
-   width: 20%;
+   width: 200px;
 }
 
 .hotels-card img{
@@ -209,4 +231,36 @@ body{
 
 .hotels p{
     padding: 20px;
+}
+
+
+.footer{
+    padding: 30px;
+    background-color: #F2F2F2;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__one{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.footer__one p{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.footer__one p:hover{
+    border-bottom: solid black 1px;
+    
+}
+.footer__two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-end;
 }
