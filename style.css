@@ -123,18 +123,22 @@ body{
 
 .search__input input{
     border: none;
-    width: 50%;
+    width: 85%;
     font-size: 16px;      
     padding: 10px;
+    position: relative;
 
 }
 .search__input input:focus{
     outline: none;
 }
 .search__input button{
-    padding: 10px;
-    background-color: #13a767;
-    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: #34E0A1;
+    border-radius: 30px;    
+    position: absolute;
+    top: 272px;
+    right: 570px;
 }
 .body__img{
     display: flex;
@@ -147,6 +151,7 @@ body{
 }
 .body__img p{
     position: absolute;
+    width: 80%;right: 0;
 }
 .body__img img{
     width: 60%;
@@ -154,8 +159,54 @@ body{
     height: fit-content;
 }
 
-.course-card{ 
-    flex-grow: 1;
-    flex-basis: 20%;
-    margin: 5px;
+
+.body__img__title{
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+}
+
+.body__img p{
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    left: 400px;
+}
+
+.body__btn p{
+    padding: 15px 30px;
+    background-color:white;
+    border-radius: 30px;    
+    position: absolute;
+    left: 400px;
+    bottom: -185px;
+    font-weight: bold;    
+}
+
+.hotels{
+    padding: 0 380px 0 380px;
+}
+.hotels__container{
+    display: flex;
+   justify-content: space-around;
+   gap: 20px;
+}
+
+.hotels-card{ 
+   width: 20%;
+}
+
+.hotels-card img{
+    width: 200px;
+}
+
+.hotels__title{
+    padding: 10px;
+}
+
+.hotels p{
+    padding: 20px;
 }
